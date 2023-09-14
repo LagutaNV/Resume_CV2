@@ -1,0 +1,56 @@
+.avatar {
+    border-radius: 28px;
+    box-shadow: 18px 10px 20px rgba(0, 0, 0, 0.45);
+    margin: auto;
+    margin-left: 1%;}
+
+
+.card-1 {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(255, 254, 196, 0.53);
+    box-shadow: 4px 4px 14px rgba(63, 56, 6, 0.95);
+    box-sizing: border-box;}
+.card-2 {
+     border: 1px solid #eee;
+     padding: 5px 100px 5px 100px;
+     margin: 10px 10px 10px 10px;
+     border-radius: 10px;
+     background-color: rgba(102, 202, 84, 0.388);
+     box-shadow: 4px 4px 14px rgba(27, 63, 6, 0.95);}
+.card-3 {
+     border: 1px solid #eee;
+     padding-left: 1%;
+     padding-bottom: 1%;
+     margin: 2% 10%;
+     border-radius: 10px;
+     background-color: rgba(217, 244, 8, 0.221);
+     box-shadow: 4px 4px 14px rgba(63, 56, 6, 0.95);
+     box-sizing: border-box;}
+.card-3 h4 {text-align: center;}
+
+.card-4 {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 10px 10px 20px 5px;
+    border-radius: 10px;
+    background-color: rgba(8, 228, 244, 0.251);
+    box-shadow: 4px 4px 14px rgba(9, 36, 47, 0.95);
+    box-sizing: border-box;
+    }
+
+.card-4 h4 {
+    /*padding-left: 30%;*/
+    text-align: center;
+    }
+
+#blok1 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    color: #040858;
+    }

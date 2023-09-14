@@ -5,73 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="kaywords" content="cv, resume, WEB-разработка, фронтенд">
     <meta name="description"  content="Это сайт-резюме">
+    
+    <link rel="stylesheet" href="01_styles.css">
+    <link rel="stylesheet" href="02_fonts.css">
+    <link rel="stylesheet" href="03_borders.css">
     <title>RESUME NL</title>
-    <style>
-      .text_{background-color: bisque;padding: 10px;}
-    </style>
+    <style> .container {max-width: 700px; margin: auto; margin-top: 20px; margin-bottom: 10px;}</style>
 </head>
 <body>
-  <h1>Laguta Nataliia</h1>
-  <p>
-    <img src="img/photo_2023.jpg" alt="Фото" width="150">
-  </p>
- <div id="kontakt_" class="text_"> 
-  <h4>Список социальных сетей</h4>
-  <P>
-  <a href="https://www.facebook.com/natali.laguta.3" target="_blank">Мордокнига (в отдельном окне)</a> 
-  |
-  <a href="https://t.me/+VYHhrzDOQ6hjMjYy" target="_blank"> Tелеграм (в отдельном окне)</a>
-  </p>
-</div>
+  
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Item1</a></li>
+      <li><a href="#">Item2</a></li>
+      <li><a href="#">Item3</a></li>
+      <li><a href="#">Item4</a></li>
+      <li><a href="#">Item5</a></li>
+    </ul>
+  </nav>
 
-<br/>
+  <div class="container">
 
-  <div id="blok1" class="text_">
-  <p>Я <strong>инженер-экономист</strong> с богатым опытом работы в финансовой сфере</p> 
-  <p>Я хочу получить дополнительные навыки в области <em>информационных технологий</em>, в частности, освоить <em>WEB-разработку</em> </p> 
+    <div class="box">  
+      <img src="img/photo_2023.jpg" alt="Фото" width="100%" class="avatar">
+    
+              
+        <div id="blok1">
+        <h2>Laguta Nataliia</h2>
+        <p>Я <strong> <em> инженер-экономист</em></strong> с богатым опытом работы в финансовой сфере</p> 
+        <p>Хочу получить дополнительные навыки в области информационных технологий, в частности, освоить WEB-разработку </p> 
+        </div>      
+    </div>
+    <div class="kontakt">
+        <h4>Список социальных сетей</h4>
+        <a href="https://www.facebook.com/natali.laguta.3" target="_blank">Мордокнига (в отдельном окне)</a> 
+        <br>
+        <a href="https://t.me/+VYHhrzDOQ6hjMjYy" target="_blank"> Tелеграм (в отдельном окне)</a>
+    </div>
+    
+  <hr color="red" size="2">
+
+    <div class="card-1">
+     <h4>Опыт работы</h4>
+     <table class="table">
+        <thead> 
+          <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>   Год   </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td> Обучение МЭСИ </td><td> Инженер-экономист </td><td>    1990-1995    </td></tr>
+          <tr><td> Рекламные агенства </td><td> Главный бухгалтер </td><td>  1995-2002  </td></tr>
+          <tr><td> Финансовые компании </td><td> Главный бухгалтер </td><td>  2002-2006  </td></tr>
+          <tr><td> Нефтяная компания </td><td> Главный специалист </td><td>  2006-2023  </td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card-2">
+      <h4>Мои хобби</h4>
+      <ul>
+        <li>Горные лыжи</li>
+        <li>Фитнес</li>
+        <li>История</li>
+        <li>Литература</li>
+        <li>Музыка</li>
+      </ul>
+    </div>
+
+    <div class="card-4">
+      <h4>Мои курсы</h4>
+      <ul class="list">
+        <li>Python<img src="img/Python.jpeg" alt="Фото" width="50"></li>
+        <li>SQL<img src="img/SQL.jpeg" alt="Фото" width="50"></li>
+        <li>RESULT в процессе</li>  
+      </ul>
+    </div>
+
+    <div class="card-3">
+      
+      <form action="/" class="form">
+        <h4>Связаться со мной</h4>
+        <div class="form-row">
+          <div class="form-group">
+           <label for="FIO">Ваше имя</label>
+            <input type="text" id="FIO" placeholder="Введите Ваше имя">
+          </div>
+
+          <div class="form-group">
+            <label for="e-mail">Ваш email</label>
+            <input type="email" id="e-mail" placeholder="Введите email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="mesege">Ваше сообщение</label>
+          <br>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Введите сообщение..."></textarea>
+        </div> 
+
+        <button type="submit" class="btn">Отправить! </button>
+      </form>
+    </div>
+
+
+    <div class="box">
+      <h2>box</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, laborum?</p>
+    </div>
+
   </div>
-  <hr color="red" size="5">
-<h4>Опыт работы</h4>
-<table border="1">
-  <thead> 
-    <tr>
-    <th>Название</th>
-    <th>Должность</th>
-    <th>Год</th>
-    </tr>
-  </thead>
-  <tbody>
-<tr><td>Обучение МЭСИ</td><td>Инженер-экономист</td><td>1990-1995</td></tr>
-<tr><td>Рекламные агенства</td><td>Главный бухгалтер</td><td>1995-2002</td></tr>
-<tr><td>Финансовые компании</td><td>Главный бухгалтер</td><td>2002-2006</td></tr>
-<tr><td>Нефтяная компания</td><td>Главный специалист</td><td>2006-2023</td></tr>
-
-  </tbody>
-</table>
-  <h4>Мои хобби</h4><ul>
-  <li>Горные лыжи</li>
-  <li>Фитнес</li>
-  <li>История</li>
-  <li>Литература</li>
-  <li>Музыка</li>
-</ul>
-<h4>Связаться со мной</h4>
-<form>
-<div>
-  <label for="FIO">Ваше имя</label>
-  <input type="text" id="FIO" placeholder="Введите Ваше имя">
-  </div>
-<div>
-  <label for="e-mail">Ваш email</label>
-  <input type="email" id="e-mail" placeholder="Введите email">
-  </div>
-<div>
-  <label for="mesege">Ваше сообщение</label>
-  <br>
-  <textarea name="message" id="" cols="30" rows="10" placeholder="Введите сообщение..."></textarea>
-  </div> 
-  <button type="submit">Отправить! </button>
-</form>
-
 </body>
 </html>
